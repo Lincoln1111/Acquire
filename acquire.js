@@ -20,3 +20,7 @@ const player2 = {
     }
 }
 
+function shuffle(tilePile) {
+    return tilePile.sort(() => Math.random() - 0.5);
+}
+
